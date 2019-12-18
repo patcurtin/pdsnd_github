@@ -225,7 +225,7 @@ def main():
             else:
                 break
         restart = input('\nWould you like to restart? Enter yes or no.\n')
-        if restart.lower() != 'yes' and restart.lower() != 'y':
+        if restart.lower() != 'yes' and restart.lower() != 'y' and restart.lower() != 'go on so':
             break
 
 
