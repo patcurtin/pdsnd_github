@@ -3,6 +3,7 @@
 ### Bikeshare project
 
 ### Description
+Project for Udacity Nano degree : [Udacity](https://udacity.com)
 Displays some statistics on Bike Sharing in various US cities
 Requires csv files containing the relevant data.
 Run the script using python bikeshare.py
