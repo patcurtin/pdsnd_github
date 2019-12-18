@@ -2,9 +2,9 @@ import time
 import pandas as pd
 import numpy as np
 
-CITY_DATA = { 'chicago': 'C:/Users/PATRICKCurtin/Documents/udacity/python/project/bikeshare-2/chicago.csv',
-              'new york city': 'C:/Users/PATRICKCurtin/Documents/udacity/python/project/bikeshare-2/new_york_city.csv',
-              'washington': 'C:/Users/PATRICKCurtin/Documents/udacity/python/project/bikeshare-2/washington.csv' }
+CITY_DATA = { 'chicago': '/udacity/python/project/bikeshare-2/chicago.csv',
+              'new york city': '/udacity/python/project/bikeshare-2/new_york_city.csv',
+              'washington': '/udacity/python/project/bikeshare-2/washington.csv' }
 
 def get_filters():
     """
