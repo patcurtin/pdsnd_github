@@ -2,9 +2,9 @@ import time
 import pandas as pd
 import numpy as np
 
-CITY_DATA = { 'chicago': 'C:/Users/PATRICKCurtin/Documents/udacity/python/project/bikeshare-2/chicago.csv',
-              'new york city': 'C:/Users/PATRICKCurtin/Documents/udacity/python/project/bikeshare-2/new_york_city.csv',
-              'washington': 'C:/Users/PATRICKCurtin/Documents/udacity/python/project/bikeshare-2/washington.csv' }
+CITY_DATA = { 'chicago': '/udacity/python/project/bikeshare-2/chicago.csv',
+              'new york city': '/udacity/python/project/bikeshare-2/new_york_city.csv',
+              'washington': '/udacity/python/project/bikeshare-2/washington.csv' }
 
 def get_filters():
     """
@@ -226,7 +226,7 @@ def main():
             else:
                 break
         restart = input('\nWould you like to restart? Enter yes or no.\n')
-        if restart.lower() != 'yes' and restart.lower() != 'y':
+        if restart.lower() != 'yes' and restart.lower() != 'y' and restart.lower() != 'go on so':
             break
 
 
